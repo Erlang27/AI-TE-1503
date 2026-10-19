@@ -107,9 +107,15 @@ sedangkan UCS dan A* sama-sama optimal dan A* memeriksa simpul sedikit lebih sed
 | R5 | Tidak buru-buru dan budget cukup, maka kriteria waktu |
 | R6 | Kriteria waktu, maka algoritma A* |
 | R7 | Kriteria biaya, maka algoritma UCS |
+| R8 | Jam Sibuk dan buru-buru, maka sarankan MRT/KRL |
 
 ## Catatan
 
 - Data waktu dan biaya adalah estimasi untuk keperluan tugas, bukan data resmi operator.
 - Untuk kriteria biaya (Rp), A* memakai h = 0 sehingga perilakunya sama dengan UCS, karena tidak ada
   estimasi biaya yang andal dari jarak garis lurus.
+
+## Keterbatasan
+   - (misal: data waktu dan biaya hanya estimasi)
+   - (misal: jumlah stasiun masih sedikit)
+   - (misal: aturan expert system masih sederhana)

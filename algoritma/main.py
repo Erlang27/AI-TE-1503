@@ -98,6 +98,8 @@ def main():
         print(f"  {id_aturan}: {penjelasan}")
     print(f"[Expert System] Kriteria: {fakta['kriteria']} | "
           f"Algoritma rekomendasi: {fakta['algoritma']}")
+    if "saran" in fakta:
+           print(f"[Expert System] Saran: {fakta['saran']}")	
 
     # --- Search ---
     graph = terapkan_pengali_tj(bangun_graph(), fakta["pengali_tj"])

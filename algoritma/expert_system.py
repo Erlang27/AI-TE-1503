@@ -47,7 +47,9 @@ ATURAN = [
 
     ("R7", "Kriteria biaya -> gunakan UCS (tidak ada heuristik yang andal untuk Rp)",
      lambda f: f.get("kriteria") == "biaya",
-     {"algoritma": "UCS"}),
+     {"algoritma": "UCS"}),("R8", "Jam sibuk dan buru-buru -> sarankan MRT/KRL (bebas macet)",
+        lambda f: f.get("jam_sibuk") and f.get("buru_buru"),
+        {"saran": "Utamakan MRT/KRL, hindari TransJakarta karena macet"}),
 ]
 
 
