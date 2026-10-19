@@ -31,6 +31,7 @@ STASIUN = {
     "Pasar Minggu":     (-6.2842, 106.8445),
     "Depok":            (-6.3917, 106.8176),
     "Jakarta Kota":     (-6.1376, 106.8133),
+    "Juanda": 		(-6.1666, 106.8307),
 }
 
 # ---------------------------------------------------------------------------
@@ -61,6 +62,8 @@ JALUR = [
     ("Blok M",          "Bundaran HI",     20, 3500, "TJ"),
     ("Bundaran HI",     "Gambir",          10, 3500, "TJ"),
     ("Gambir",          "Jakarta Kota",    15, 3500, "TJ"),
+    ("Gambir",          "Juanda",           3, 3000, "KRL"),
+    ("Juanda",          "Jakarta Kota",     8, 3000, "KRL"),
 ]
 
 
