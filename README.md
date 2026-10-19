@@ -8,9 +8,9 @@ Kelompok: AI-TE-1503
 
 | Peran | Nama | Branch |
 |---|---|---|
-| Ketua (manager) | [ISI NAMA KETUA] | `main` |
-| Dev 1 | Hue | `dev1-hue` |
-| Dev 2 | Bagas | `dev2-bagas` |
+| Ketua (manager) | ERLANG | `main` |
+| Dev 1 | JEREMY | `dev1-hue` |
+| Dev 2 | AKMAL | `dev2-bagas` |
 
 ## Deskripsi
 
@@ -56,7 +56,7 @@ AI-TE-1503/
 
 1. Clone repository:
    ```
-   git clone https://github.com/<username>/AI-TE-1503.git
+   git clone https://github.com/Erlang27/AI-TE-1503.git
    cd AI-TE-1503/algoritma
    ```
 2. Jalankan program utama (lihat bagian Running).
